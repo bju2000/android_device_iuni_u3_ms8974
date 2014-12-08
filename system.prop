@@ -1,3 +1,9 @@
 #
-# system.prop for u3
+# ADDITIONAL_DEFAULT_PROPERTIES
 #
+ro.secure=1
+ro.allow.mock.location=0
+ro.debuggable=1
+persist.sys.strict_op_enable=false
+persist.sys.whitelist=/system/etc/whitelist_appops.xml
+persist.sys.usb.config=adb
